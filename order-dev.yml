@@ -1,6 +1,16 @@
 spring:
   application:
     name: order
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+    username: guest
+    password: guest
+    port: 5672
+    host: 192.168.25.100
   datasource:
     url: jdbc:mysql://localhost/springboot_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
