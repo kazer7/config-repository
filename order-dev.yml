@@ -1,6 +1,6 @@
 spring:
   application:
-    name: order-test
+    name: order
   cloud:
     bus:
       enabled: true
@@ -20,4 +20,4 @@ spring:
     show-sql: true
 server:
   port: 8081
-env: dev-06
+env: dev
